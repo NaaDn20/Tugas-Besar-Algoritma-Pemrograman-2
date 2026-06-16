@@ -769,6 +769,7 @@ func main(){
 	var jumlahProv int = 0
 	isiDataLokasi(&jumlahProv)
 
+	//comment jika tidak ingin menggunakan dummy
 	isiDummySup(&jumlahSupplier, &nextID)
 	isiDummyTransaksi(&jumlahTransaksi, &nextIDTransaksi)
 
